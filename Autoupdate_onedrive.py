@@ -86,6 +86,9 @@ def main():
                             ((By.CSS_SELECTOR, "button[name='Files']"))
                            ).click()
     '''
+
+    while True:
+        time.sleep(4)
     return 0
 
 
