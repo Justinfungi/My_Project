@@ -20,7 +20,7 @@ def login_in(driver):
                     )
 
     username.clear()
-    username.send_keys("fung0311@connect.hku.hk")
+    username.send_keys("")
 
     button = WebDriverWait(driver, 2)         .until(EC.element_to_be_clickable
                     ((By.CSS_SELECTOR, "input[type='submit']"))
@@ -33,7 +33,7 @@ def login_in(driver):
                     )
 
     username.clear()
-    username.send_keys("fhj03137120128811")
+    username.send_keys("")
     button = WebDriverWait(driver, 2)         .until(EC.element_to_be_clickable
                     ((By.CSS_SELECTOR, "span[class='submit']"))
                    ).click()
